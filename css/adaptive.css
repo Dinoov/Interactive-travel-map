@@ -1,0 +1,139 @@
+/* Для экранов от 992px до 1199px */
+@media (max-width: 1200px) {
+    .head {
+        width: 90%;
+          display: flex;
+          justify-content: space-around; 
+          align-items: center;
+              
+    }
+  
+    #map {
+        width: 90%;
+        height: 450px;
+    }
+  
+    .head h1 {
+        font-size: 50px;
+    }
+  
+    .head a {
+        font-size: 35px;
+    }
+  }
+  
+  /* Для планшетов и небольших экранов (от 768px до 991px) */
+  @media (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+  
+    .head {
+        flex-direction: column;
+        padding: 20px;
+    }
+  
+    #map {
+        width: 90%;
+        height: 400px;
+    }
+  
+    .head h1 {
+        font-size: 40px;
+    }
+  
+    .head img {
+        height: 80px;
+        width: 80px;
+    }
+  
+    .head a {
+        font-size: 30px;
+    }
+  }
+  
+  /* Для мобильных устройств (от 480px до 767px) */
+  @media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+  
+    .head {
+        width: 100%;
+        padding: 10px;
+    }
+  
+    #map {
+        width: 90%;
+        height: 300px;
+    }
+  
+    .head h1 {
+        font-size: 30px;
+    }
+  
+    .head img {
+        height: 60px;
+        width: 60px;
+    }
+  
+    .head a {
+        font-size: 24px;
+    }
+  
+    body p {
+        font-size: 16px;
+        padding: 10px;
+    }
+  }
+  
+  /* Для очень маленьких экранов (от 320px до 479px) */
+  @media (max-width: 480px) {
+    .head h1 {
+        font-size: 24px;
+    }
+  
+    .head img {
+        height: 50px;
+        width: 50px;
+    }
+  
+    .head a {
+        font-size: 20px;
+    }
+  
+    #map {
+        width: 90%;
+        height: 200px;
+    }
+  
+    body p {
+        font-size: 14px;
+    }
+  }
+  
+  /* Для самых маленьких экранов (до 319px) */
+  @media (max-width: 320px) {
+    .head h1 {
+        font-size: 20px;
+    }
+  
+    .head img {
+        height: 40px;
+        width: 40px;
+    }
+  
+    .head a {
+        font-size: 18px;
+    }
+  
+    #map {
+        width: 90%;
+        height: 180px;
+    }
+  
+    body p {
+        font-size: 12px;
+    }
+  }
+  
